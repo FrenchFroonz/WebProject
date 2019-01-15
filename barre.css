@@ -1,0 +1,93 @@
+body
+{
+	/*border: 10px solid rgb(085, 022, 033);*/
+	width: 900px;
+	margin: auto;
+	background-image: url("DNA_Background.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+/*.main*/
+.outil
+{
+	/*margin-bottom: 140px;*/
+	margin-bottom: 10px;
+	padding: 0px 10px;
+	border: 2px solid rgb(085, 022, 033);
+	border-radius: 20px;
+	position: relative;
+	background: linear-gradient(to bottom, rgba(225, 225, 225, 1), rgba(225, 225, 225, 0.5));
+}
+
+sideBar
+{
+	/*border: 2px solid rgb(085, 022, 033);*/
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1; /*Stay on top*/
+	top: 0; /*Stay at the top*/
+	left: 0;
+	background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	overflow-x: hidden; /*Disable horizonal scrolling*/
+	padding-top: 20px; 
+}
+
+sideBar a  /*Text de la sideBar*/
+{
+	padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+sideBar a:hover {
+    color: #f1f1f1;
+}
+
+sideBar .home:hover
+{
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+}
+
+.item
+{
+	overflow-wrap: break-word;
+	padding: 0px 10px;
+	/*border: 2px solid rgb(085, 022, 033);*/
+	/*border-radius: 20px;*/
+	position: relative;
+	background: white;
+	/*border-top: 5px solid rgb(085, 022, 033);*/
+	border: 2px solid rgba(085, 022, 033, 0.7);
+	border-radius: 20px;
+}
+
+.item table
+{
+	border-collapse: collapse;
+}
+
+.item td
+{	
+	/*border: 2px solid rgb(085, 022, 033);*/
+	vertical-align: top;
+}
+
+/*.item table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.item table td {
+    word-wrap: break-word;          All browsers since IE 5.5+ 
+    overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec 
+}*/
+
+
+
+
+

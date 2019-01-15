@@ -1,0 +1,157 @@
+body
+{
+	/*border: 10px solid rgb(085, 022, 033);*/
+	width: 900px;
+	margin: auto;
+	background-image: url("DNA_Background.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+header
+{
+	/*border: 2px solid rgb(085, 022, 033);*/
+	/*background-image: url("banniere.jpg");
+	background-repeat: no-repeat;*/
+	height: 100px;
+	border-radius: 20px;
+	position: relative;
+	text-align: center;
+	top: 0; /*Stay at the top*/
+	left: 0;
+	
+}
+
+sideBar
+{
+	/*border: 2px solid rgb(085, 022, 033);*/
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	z-index: 1; /*Stay on top*/
+	top: 0; /*Stay at the top*/
+	left: 0;
+	background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	overflow-x: hidden; /*Disable horizonal scrolling*/
+	padding-top: 20px; 
+}
+
+sideBar a  /*Text de la sideBar*/
+{
+	padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+sideBar a:hover {
+    color: #f1f1f1;
+}
+
+sideBar .home:hover
+{
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+}
+
+.main
+{
+	margin-left: 150px;
+	margin-bottom: 140px;
+	padding: 0px 10px;
+	border: 2px solid rgb(085, 022, 033);
+	border-radius: 20px;
+	position: relative;
+	background: linear-gradient(to bottom, rgba(225, 225, 225, 1), rgba(225, 225, 225, 0.5));
+
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*section p
+{
+	width: 700px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	float: right;
+	border: 2px solid rgb(085, 022, 033);
+	border-radius: 20px;
+	/*font-size: 14px;*/
+	text-align: justify;
+	/*color: white;*
+	background: linear-gradient(rgba(26, 255, 140, 0.5), rgba(102, 255, 179, 0.2));
+}
+
+sectionDeux p
+{
+	width: 700px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	float: right;
+	border: 2px solid rgb(085, 022, 033);
+	border-radius: 20px;
+	text-align: justify;
+	background: linear-gradient(rgba(26, 255, 140, 0.5), rgba(102, 255, 179, 0.2));
+}*/
+
+nav ul
+{
+	position: static;
+	/*background-color: rgba(102, 179, 255, 0.6);*/
+	text-align: center;
+	margin: 25px 0px;
+	padding: 10px 5px 0px 5px; /* 0px 5px 0px 5px sur certaines versions de Firefox */
+	border-radius: 20px;
+	list-style-type: none;
+}
+
+nav li
+{
+	display: inline;
+}
+
+logo
+{
+	position: fixed;
+	right: 0px;
+	bottom: 70px;
+}
+
+
+footer {
+	position: fixed;
+	color: white;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 5px 0px;
+	text-align: center;
+/*	border-top: 2px solid rgb(185, 022, 033);
+*/	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1));
+
+
+
+}
+
+
+
+/*footer
+{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	padding: 5px 0px;
+	font-size: small;
+	border-top: 2px solid rgb(085, 022, 033);
+	font-family: lillyregular;
+	text-align: center;
+	color: white;
+	background-color: rgba(26, 255, 140, 0.5);
+}*/
+
